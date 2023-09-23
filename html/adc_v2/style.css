@@ -1,0 +1,633 @@
+
+body {
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    width: 1300px;
+
+    margin: 0 auto;
+
+}
+
+.clear-fix{
+    clear: both;
+}
+
+/* .up-left h2 */
+.h2-title{
+
+    text-align: center;
+    font-size: 30px;
+}
+.main-p{
+    line-height: 30px;
+    word-spacing: 5px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+}
+
+.main-button{
+    background-color:orange;
+    height: 50px;
+    width:150px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0;
+    margin-left: 350px;
+}
+
+.main-button:hover{
+    background-color:rgb(213, 139, 0);
+
+}
+
+/* =======top-box===== */
+
+.top-box{
+    margin:auto;
+    
+    width: 1300px;
+    height: 650px;
+    background-image: url("img/top.png");
+    background-repeat: no-repeat;
+
+    /* border: red solid 10px; */
+    
+}
+
+.nav {
+    width: 100%;
+    height: 200px;
+    /* background-color: rgba(0, 255, 255, 0.207); */
+    display: flex;
+}
+
+.t-left{
+    height:100%;
+    width: 40%;
+    /* background-color: rgba(255, 0, 0, 0.236); */
+}
+
+.t-right{
+    display: flex;
+    height: 100%;
+    width:60%;
+    font-family: 微软雅黑;
+}
+
+.nav-box{
+    width: 20%;
+    height: 100%;
+    /* background-color: rgba(255, 255, 0, 0.149); */
+    color: #fff;
+}
+
+.nav-box a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.top-box h2{
+    font-size:medium
+}
+
+.t-left h1{
+    color:rgb(212, 0, 0);
+    position: relative;
+    left:30%;
+    top:20px;
+}
+
+#wel{
+    text-align: center;
+    color: #fff;
+
+    font-size: 50px;
+}
+
+.top-box h3{
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+}
+
+.button-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.button-box button{
+    width: 120px;
+    height: 45px;
+    margin-inline: 40px;
+    font-family: 微软雅黑;
+    color: #fff;
+}
+
+.b-left button{
+    background-color: rgb(255, 106, 0);
+    border: 0;
+    border-radius: 5%;
+}
+
+.b-left button:hover{
+    background-color: rgb(205, 85, 0);
+
+}
+
+.b-right button{
+    background-color: rgb(60, 60, 60);
+    border: 0;
+    border-radius: 5%;
+
+}
+
+.b-right button:hover{
+    background-color: rgb(35, 35, 35);
+
+}
+
+.top-box h4{
+    text-align: center;
+    color: #fff;
+    font-family: 微软雅黑;
+    font-weight:normal;
+    margin-top: 80px;
+}
+
+
+.down-arrow {
+    text-align: center;
+}
+
+
+
+/* ===========top2-box============== */
+
+.top2-box{
+    padding-top: 50px;
+    background-color: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.top2-box .up-box
+{
+
+    /* margin-top: 50px; */
+    display: flex;
+
+    /* border: red solid 10px; */
+}
+
+.top2-box .up-left{
+    width: 45%;
+    min-height: 200px;
+
+    /* border: red solid 10px; */
+
+}
+
+.top2-box .up-right{
+    width: 55%;
+    min-height: 200px;
+}
+
+.up-right img{
+    width: 100%;
+}
+
+
+
+
+
+.up-left p a {
+    text-decoration: none;
+    color: rgb(255, 179, 0);
+}
+
+.up-left p a:hover{
+    color: rgb(193, 135, 0);
+
+}
+
+
+
+
+
+.down-box{
+    display: flex;
+}
+
+
+
+.down-right{
+    margin-top: 50px;
+    width: 45%;
+    /* border: red solid 10px; */
+    display: flex;
+
+}
+
+.down-right .left{
+    width: 45%;
+    /* margin-left:5%; */
+    margin-right: 10%;
+    /* border: red solid 10px; */
+
+}
+
+.down-right .right{
+    width: 45%;
+    /* border: red solid 10px; */
+
+}
+
+.down-left{
+    width: 55%;
+    max-height: 250px;
+}
+
+.down-left img{
+    width: 90%;
+    position: relative;
+    top:-10em
+}
+
+.cuisine-box {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    .left-dish-box{
+        width: 455px;
+        
+        /* border: red solid 10px; */
+        
+
+        .uper{
+            margin: 0;
+            display: flex;
+
+
+            .left{
+                width: 50%;
+            }
+
+            .right{
+                width: 50%;
+            }
+        }
+
+        .downer{
+
+        }
+
+    }
+
+
+    #cup-cake{
+        float: right;
+    }
+
+    .right-p{
+        width: 550px;
+        margin-left: 50px;
+        /* border: red solid 10px; */
+
+    }
+}
+
+#b2{
+    margin-top: 20px;
+    margin-left: 458px;
+}
+/* ==============reservation & events============= */
+
+.res-events{
+    margin: 0 auto;
+    width: 96%;
+    display: flex;
+    background-color: #f4f4f4;
+
+    .res{
+        padding-top: 35px;
+        margin: 35px;
+        background-color: white;
+        width: 50%;
+        /* border: red solid 10px; */
+
+    }
+    .events-box{
+        padding-top: 35px;
+
+        margin: 35px;
+        background-color: white;
+        width: 50%;
+
+        .event-list{
+            list-style-type: none;
+            
+
+
+            .event-emp{
+                margin-bottom: 20px;
+                width: 90%;
+                /* display: block; */
+                display: flex;
+                /* border: red solid 10px; */
+                padding-left: 15px;
+    
+    
+                .icon{
+                    width: 72px;
+                }
+    
+                .content{
+                    margin-left: 10px;
+
+
+                    .event-title{
+                        font-size:25px ;
+                        color:rgb(192, 125, 25);
+                    }
+
+                    .date{
+                        display: flex;
+
+                        .daytime1{
+                            margin-left: 5px;
+                            padding-left: 15px;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 800;
+
+                            background-image: url("img/Date-icon.png");
+                            background-repeat: no-repeat;
+                            background-position: left center;
+
+                        }
+                        .daytime2{
+                            margin-left: 5px;
+                            padding-left: 15px;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 800;
+
+                            background-image: url("img/Time-icon.png");
+                            background-repeat: no-repeat;
+                            background-position: left center;
+
+                        }
+                         
+                    }
+
+                    .event-dsp{
+                        /* color: #f4f4f4; */
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+                        font-weight: 500;
+                        font-size: 20px;
+                    }
+
+                    .read-more a{
+                        text-decoration: none;
+                        font-style: italic;
+                        color:rgb(192, 125, 25);
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-size: 20px;
+                    
+
+                    }
+                    .read-more a:hover{
+                        color:rgb(161, 105, 21);
+
+                    }
+    
+    
+                }
+    
+            }
+
+        }
+
+
+
+
+    }
+}
+
+.name{
+    text-align: center;
+    margin-bottom: 20px;
+
+    #name{
+        background-color: rgb(245, 245, 245);
+        height: 50px;
+        width: 300px;
+        font-size:25px;
+        border-radius: 5px;
+        background-image: url("img/commensals-icon.png");
+        background-repeat: no-repeat;
+        background-position: center right 10px;
+        border-color: #f4f4f4;
+    }
+
+    #date{
+        background-color: rgb(245, 245, 245);
+        height: 50px;
+        width: 300px;
+        font-size:25px;
+        border-radius: 5px;
+        background-image: url("img/Date-icon.png");
+        background-repeat: no-repeat;
+        background-position: center right 10px;
+        border-color: #f4f4f4;
+    }
+    #time{
+        background-color: rgb(245, 245, 245);
+        height: 50px;
+        width: 300px;
+        font-size:25px;
+        border-radius: 5px;
+        background-image: url("img/Time-icon.png");
+        background-repeat: no-repeat;
+        background-position: center right 10px;
+        border-color: #f4f4f4;
+    }
+    #commensals{
+        background-color: rgb(245, 245, 245);
+        height: 50px;
+        width: 300px;
+        font-size:25px;
+        border-radius: 5px;
+        background-image: url("img/commensals-icon.png");
+        background-repeat: no-repeat;
+        background-position: center right 10px;
+        border-color: #f4f4f4;
+    }
+}
+
+.find-table{
+    text-align: center;
+    margin-top: 50px;
+
+    #find-table{
+        background-color:orange;
+    height: 50px;
+    width:320px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    }
+
+    #find-table:hover{
+        background-color:rgb(228, 148, 0);
+
+    }
+}
+
+.book-share{
+    /* padding-top: 150px; */
+    width: 100%;
+    /* border: red solid 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .book{
+        width: 50%;
+        /* min-height: 500px; */
+        padding-top: 150px;
+        /* border: red solid 10px; */
+
+        
+
+    }
+
+    .or{
+        width: 1x;
+        height: 200px;
+        border: rgb(179, 179, 179) 1px solid;
+        position: relative;
+        bottom: -40px;
+        
+
+    }
+
+    .share{
+        padding-top: 150px;
+
+        width: 50%;
+        /* min-height: 500px; */
+        /* border: red solid 10px; */
+        
+        .link-to-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+
+            .facebook{
+                margin-right: 10px;
+            }
+        }
+
+    }
+}
+
+.p-or{
+    margin: 0 auto;
+    width: 5%;
+    text-align: center;
+}
+
+.p-or p{
+    font:30px 微软雅黑;
+    background-color: white;
+    position: relative;
+    bottom:180px ;
+    color: #727272;
+}
+
+#book-table{
+    position: relative;
+    margin:0;
+    left: 38%
+}
+
+.b-dsc{
+    font-family: 微软雅黑;
+    font-size: 20px;
+    color: #727272;
+    text-align: center;
+}
+
+.bottom{
+    width: 100%;
+    min-height: 500px;
+    background-color: rgb(41, 6, 0);
+    display: flex;
+
+    .bo-left{
+        width: 40%;
+    }
+    .bo-left h1{
+        text-align: center;
+        margin-top: 100px;
+        color: rgb(185, 0, 0);
+    }
+
+    .bo-mid{
+        padding-top: 80px;
+        width: 30%;
+
+        .a-box{
+            margin-top: 40px;
+        }
+
+    }
+
+    .bo-mid a{
+        text-decoration: none;
+        color: white;
+        line-height: 40px;
+        font-size: 20px;
+        font-family: 微软雅黑;
+    }
+    .bo-right{
+        padding-top: 80px;
+        width: 30%;
+    }
+
+    .bo-right p{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: white;
+        font-family: 微软雅黑;
+        font-size: 20px;
+    }
+    .bo-right a{
+        color: rgb(141, 63, 0);
+        text-decoration: none;
+    }
+
+    .bo-right .icon-box{
+        display: flex;
+    }
+
+    .icon-box img{
+        margin-top: 20px;
+        margin-right: 20px;
+
+    }
+    .icon-box img:hover{
+        background-color: rgba(46, 46, 46, 0.486);
+    }
+}
+
+.bottom h3{
+    color: white;
+}
